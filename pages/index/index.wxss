@@ -1,0 +1,97 @@
+/**index.wxss**/
+body{
+    padding:0px;
+    margin:0px;
+}
+.title-bar{
+    display: block;
+    background-color: #f05c8c;
+    text-align:center;
+}
+
+.bar{ 
+    display: inline-block;
+    padding:0px 18px 4px 18px;
+}
+
+.swpier{
+    position:relative;
+    background-color:darkred
+}
+.slide-image{
+    position:absolute;
+    display: block;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    overflow:hidden;
+}
+
+.middle-bar{
+    position:relative;
+    padding:10px 5px;
+    background-color:azure
+}
+
+.hot{
+    display: inline-block;
+    margin-left:55px;
+}
+
+.rank{
+    display: inline-block;
+    margin-right:60px;
+    float:right;
+}
+
+.hot-image{
+    position:absolute;
+    height:25px;
+    width:25px;
+}
+
+.rank-image{
+    position:absolute;
+    height:25px;
+    width:25px;
+}
+
+.rank-image-arrow{
+    position:absolute;
+    top:15px;
+    height:15px;
+    width:15px;
+}
+
+.hot-text{
+    margin-left:30px;
+    font-size:10px;
+}
+
+.rank-text{
+    margin-left:30px;
+    font-size:10px;
+}
+
+.video-item{
+    width:100%;
+    height:200px;
+}
+
+.little-video{
+    width:50%;
+    height:50%;
+    display: inline-block;
+}
+
+.video-image{
+    border-radius: 10px;
+    width:97%;
+    height:100px;
+}
+
+.video-text{
+    font-family:bold;
+    font-size:12px;
+}

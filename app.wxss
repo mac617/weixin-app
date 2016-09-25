@@ -1,0 +1,10 @@
+/**app.wxss**/
+.container {
+  width:375px;
+  height:675px;
+}
+
+navigator{
+  width:200px;
+  height:200px;
+}

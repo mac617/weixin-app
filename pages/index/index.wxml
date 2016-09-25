@@ -1,0 +1,64 @@
+<!--index.wxml-->
+<view class="container">
+    <!--顶部标题栏-->
+    <view class="title-bar">
+        <navigator class="bar" url="component-pages/wx-button/wx-button">直播</navigator>
+        <navigator class="bar" url="component-pages/wx-button/wx-button">推荐</navigator>
+        <navigator class="bar" url="component-pages/wx-button/wx-button">番剧</navigator>
+    </view>
+
+    <!--轮播图-->
+    <swiper indicator-dots="{{indicatorDots}}" class="swpier" vertical="{{vertical}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" bindchange="swiperchange">
+        <block wx:for-items="{{imgUrls}}">
+        <swiper-item>
+            <navigator class="bar" url="{{url}}">
+                <image src="{{item}}" class="slide-image"/>
+            </navigator>
+        </swiper-item>
+        </block>
+    </swiper>
+
+    <!--中间推荐栏-->
+    <view class="middle-bar">
+        <navigator class="hot" url="component-pages/wx-button/wx-button">
+            <image src="/img/CrownFilled-50.png" class="hot-image"/>
+            <text class="hot-text">热门推荐</text>
+            </navigator>
+        <navigator class="rank" url="component-pages/wx-button/wx-button">
+            <image src="/img/LeaderboardFilled-50.png" class="rank-image"/>
+            <text class="rank-text">排行榜</text>
+            <image src="/img/Forward-50.png" class="rank-image-arrow"/>
+        </navigator>
+    </view>
+
+    <!--视频-->
+    <view class="video-item">
+        <navigator class="little-video" url="component-pages/wx-button/wx-button">
+            <image src="/img/allstar.jpg" class="video-image"/>
+            <text class="video-text">I'm blowin' money fast, nigga</text>
+        </navigator>
+        <navigator class="little-video" url="component-pages/wx-button/wx-button">
+            <image src="/img/xiaoxiao.jpg" class="video-image"/>
+            <text class="video-text">I'm blowin' money fast, nigga</text>
+        </navigator>
+        <navigator class="little-video" url="component-pages/wx-button/wx-button">
+            <image src="/img/jugg.jpg" class="video-image"/>
+            <text class="video-text">I'm blowin' money fast, nigga</text>
+        </navigator>
+        <navigator class="little-video" url="component-pages/wx-button/wx-button">
+            <image src="/img/ta.jpg" class="video-image"/>
+            <text class="video-text">I'm blowin' money fast, nigga</text>
+        </navigator>
+        <navigator class="little-video" url="component-pages/wx-button/wx-button">
+            <image src="/img/sven.png" class="video-image"/>
+            <text class="video-text">I'm blowin' money fast, nigga</text>
+        </navigator>
+        <navigator class="little-video" url="component-pages/wx-button/wx-button">
+            <image src="/img/sb.jpg" class="video-image"/>
+            <text class="video-text">I'm blowin' money fast, nigga</text>
+        </navigator>
+    </view>
+
+</view>
+

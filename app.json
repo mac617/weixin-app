@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index/component/hero-str",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f05c8c",
+    "navigationBarTitleText": "Bilibili",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text":"首页",
+      "iconPath": "img/shouye.png",
+      "selectedIconPath": "img/shouyeHL.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text":"分区",
+      "iconPath": "img/fenqu.png",
+      "selectedIconPath": "img/fenquHL.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text":"关注",
+      "iconPath": "img/guanzhu.png",
+      "selectedIconPath": "img/guanzhuHL.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text":"发现",
+      "iconPath": "img/faxian.png",
+      "selectedIconPath": "img/faxianHL.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text":"我的",
+      "iconPath": "img/wode.png",
+      "selectedIconPath": "img/wodeHL.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 30000,
+    "connectSocket": 30000,
+    "uploadFile": 30000,
+    "downloadFile": 30000
+  }
+}
+
